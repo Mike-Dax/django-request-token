@@ -14,8 +14,7 @@ setup(
     install_requires=[
         'Django>=1.9',
         'PyJWT>=1.4',
-        'sqlparse>=0.2',
-        'psycopg2>=2.7'
+        'sqlparse>=0.2'
     ],
     include_package_data=True,
     description='JWT-backed Django app for managing querystring tokens.',
